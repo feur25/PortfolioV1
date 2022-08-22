@@ -1,0 +1,71 @@
+body{
+    background-image: url(../picture/background/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title{
+  /* position: absolute; */
+  margin: auto auto auto 2vw;
+  width: 300px;
+}
+.title img{
+  width: 200px;
+}
+
+h1{
+  color: rgb(0, 0, 0);
+}
+body{
+    height: 100vh;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+.background{
+  /* background-image: url(../picture/background/blue.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background-color: rgb(0, 179, 255);
+  position: absolute;
+  margin: -1.5vh auto auto auto;
+  height: 90%;
+
+}
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+.name{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.block{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(230, 245, 143, 0.79);
+  width: 80%;
+  border-radius: 5%;
+  margin: 5vh auto auto auto;
+}
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+h2{color: rgb(0, 0, 0);}
+iframe{
+    margin: -1.5vh auto auto auto;
+}
